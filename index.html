@@ -275,7 +275,7 @@
          </section>
 
          <!-- container 4 -->
-          <section class="py-[3vw]">
+          <section class="flex flex-col gap-[1vw] m-auto w-[82%] py-[3vw]">
             <!-- button -->
             <div class="flex justify-center">
                 <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#d6fbad]  rounded-3xl px-[.5vw] py-[0.7vw]">
@@ -291,14 +291,20 @@
              <p class="max-sm:text-[3.73vw] text-center text-[1.1vw] font-medium text-[#494949]">
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
              </p>
-             <form action="">
-                <input type="text" name="text" id="first-name" placeholder="First Name*">
-                <input type="text" name="" id="last-name" placeholder="Last Name*">
+             <form class="flex flex-col justify-center m-auto" action="">
+                <div >
+                    <input type="text" name="text" id="first-name" placeholder="First Name*">
+                    <input type="text" name="" id="last-name" placeholder="Last Name*">
+                </div>
                 <br>
-                <input type="number" name="number" id="number" placeholder="Phone Number*">
-                <input type="email" name="email" id="email" placeholder="Email*">
+                <div>
+                    <input type="number" name="number" id="number" placeholder="Phone Number*">
+                    <input type="email" name="email" id="email" placeholder="Email*">
+                </div>
                 <br>
-                <input type="text" name="meggage" id="message" placeholder="Write your message here">
+                <div>
+                    <input type="text" name="meggage" id="message" placeholder="Write your message here">
+                </div>
                 <div class="flex justify-center">
                     <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#d6fbad]  rounded-3xl px-[.5vw] py-[0.7vw]">
                         Send Email
