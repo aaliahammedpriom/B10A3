@@ -3,9 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rinterio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Hello</h1>
+<body class="bg-[#ede9e9]">
+    <header class="mt-[10px]"> 
+        <!-- navigation -->
+        <nav class="flex justify-between items-center w-[82%] m-auto">
+            <!-- left -->
+            <div>
+                <h1 class="flex items-center text-[2.2vw] max-sm:text-[7.47vw] font-extrabold " >
+                    <img class="w-[2.23vw] max-sm:w-[7.47vw] mr-[0.2vw]" src="assets/arrow-up-right-01.png" alt="">
+                    Rinterio
+                </h1>
+            </div>
+            <!-- middle -->
+            <div class="max-lg:hidden text-[1.12vw] flex gap-[5vw] text-[#737373]">
+                <a class="font-extrabold text-[#494949] " href="Home">Home</a>
+                <a href="Service">Service</a>
+                <a href="Profolio">Profolio</a>
+                <a href="Blogs">Blogs</a>
+                <a href="Contact Us">Contact Us</a>
+            </div>
+            <!-- right -->
+            <div class=" max-sm:hidden flex gap-[1.38vw] items-center">
+                <button class="w-[4vw]">
+                    <img src="assets/Frame 2.png" alt="">
+                </button>
+                <button class="w-[4vw]">
+                    <img src="assets/Frame 3.png" alt="">
+                </button>
+                <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#ABEF5F]  rounded-3xl px-[.5vw] py-[0.7vw]">
+                    Book Consult <img src="assets/arrow-up-right-01 (1).png" alt="">
+                </button>
+                <button class="lg:hidden">
+                    <img src="assets/Frame 6.png" alt="">
+                </button>
+
+            </div>
+            <!-- end -->
+            <div class="sm:hidden ml-[1vw] flex items-center max-sm:w-[7.47vw]">
+                <button>
+                    <img src="assets/Frame 6.png" alt="">
+                </button>
+            </div>
+        </nav>
+        <!-- banner -->
+        <section class="grid gap-[1.67vw] m-auto w-[82%]">
+            <div class="flex justify-center">
+                <img src="assets/banner.png" alt="">
+            </div>
+            <h1 class="text-center text-[4.72vw] max-sm:text-[7.46vw] text-[#494949] font-extrabold">
+                A barn house of this design has a striking appearance
+            </h1>
+            <p class="text-center text-[1.11vw] max-sm:text-[3.733vw] font-medium">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <div class="flex justify-center">
+                <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#d6fbad]  rounded-3xl px-[.5vw] py-[0.7vw]">
+                    View Details 
+                    <img src="assets/arrow-up-right-01.png" alt="">
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- conainer 1 -->
+        <section class="flex max-sm:flex-col gap-[2vw] m-auto py-[3vw] w-[82%]">
+            <!-- vector -->
+            <div class="max-sm:hidden relative inset-x-[7vw] inset-y-[-30px] w-[px]">
+                <img src="assets/Vector.png" alt="">
+             </div>
+            <!-- left -->
+            <div class="flex flex-col gap-[1vw]">
+                <!-- about us button -->
+                <div class="max-sm:flex max-sm:justify-center">
+                    <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#d6fbad]  rounded-3xl px-[.5vw] py-[0.7vw]"><img src="assets/Group 1.png" alt="">
+                        About Us
+                    </button>
+                </div>
+                <!-- header -->
+                <h1 class=" max-sm:text-[6.4vw] max-sm:text-center text-[2.78vw] font-extrabold">
+                    We design thoughtful, liveable spaces
+                </h1>
+                <p class="max-sm:text-[3.7vw] max-sm:text-center  text-[1.1vw] font-medium">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <!-- commercial -->
+                <div class="bg-white rounded-2xl flex gap-2 p-3 lg:items-center">
+                    <div>
+                        <img src="assets/commercial.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="max-sm:text-[4.27vw] text-[1.38vw] font-extrabold">
+                            Commercial
+                        </h3>
+                        <p class="max-sm:text-[4.27vw] text-[1.1w] font-medium text-[#737373]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                </div>
+                <!-- residential -->
+                <div class="bg-white rounded-2xl flex gap-2 p-3 lg:items-center">
+                    <div>
+                        <img src="assets/residential.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="max-sm:text-[4.27vw] text-[1.38vw] font-extrabold">
+                            Residential
+                        </h3>
+                        <p class="max-sm:text-[4.27vw] text-[1.1w] font-medium text-[#737373]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="flex items-center">
+                <img class="h-full" src="assets/Rectangle.png" alt="">
+            </div>
+        </section>
+
+        <!-- container 2 -->
+        <section class="flex flex-col justify-center m-auto w-[82%]">
+            <div class="flex flex-col gap-[1vw]">
+                <!-- button -->
+                <div class="flex justify-center">
+                    <button class="flex items-center gap-[.5vw] text[1.39vw] font-extrabold bg-[#d6fbad]  rounded-3xl px-[.5vw] py-[0.7vw]">
+                        <img src="assets/arrow-up-right-01.png" alt="">
+                        How it Work
+                    </button>
+                </div>
+                <!-- heading -->
+                <h1 class="max-sm:text-[6.4vw] text-center text-[2.78vw] font-bold">
+                    Our Works Process
+                </h1>
+                <!-- pragraph -->
+                <p class="max-sm:text-[3.73vw] text-center text-[1.1vw] font-medium text-[#494949]">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <!-- box -->
+                <div class="flex max-sm:flex-col gap-[1vw]">
+                    <!-- box 1 -->
+                    <div class="bg-[#E7C1D3] rounded-2xl p-6">
+                        <div>
+                            <img src="assets/concept.png" alt="">
+                        </div>
+                        <h3 class="max-sm:text-[5.3vw] text-[1.39vw] font-extrabold">
+                            Concept
+                        </h3>
+                        <p class="max-sm:text-[4.2vw] text-[1.11vw] font-medium text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="bg-[#EFDA6E] rounded-2xl p-6">
+                        <div>
+                            <img src="assets/flow-chart.png" alt="">
+                        </div>
+                        <h3 class="max-sm:text-[5.3vw] text-[1.39vw] font-extrabold">
+                            Design Process
+                        </h3>
+                        <p class="max-sm:text-[4.2vw] text-[1.11vw] font-medium text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="bg-[#A4DAC3] rounded-2xl p-6">
+                        <div>
+                            <img src="assets/vision.png" alt="">
+                        </div>
+                        <h3 class="max-sm:text-[5.3vw] text-[1.39vw] font-extrabold">
+                            Supervision
+                        </h3>
+                        <p class="max-sm:text-[4.2vw] text-[1.11vw] font-medium text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                    <!-- box 4 -->
+                    <div class="bg-[#77AAEA] rounded-2xl p-6">
+                        <div>
+                            <img src="assets/budget-planning.png" alt="">
+                        </div>
+                        <h3 class="max-sm:text-[5.3vw] text-[1.39vw] font-extrabold">
+                            Budget Planning
+                        </h3>
+                        <p class="max-sm:text-[4.2vw] text-[1.11vw] font-medium text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
